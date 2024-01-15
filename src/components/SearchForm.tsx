@@ -6,6 +6,7 @@ export default function SearchForm() {
       </button>
 
       <input
+        onChange={(e) => console.log(e.target.value)}
         spellCheck="false"
         type="text"
         required
