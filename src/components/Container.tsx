@@ -1,9 +1,9 @@
 import Sidebar from "./Sidebar";
 
-export default function Container() {
+export default function Container({ jobItems }) {
   return (
     <div className="container">
-      <Sidebar />
+      <Sidebar jobItems={jobItems} />
     </div>
   );
 }
