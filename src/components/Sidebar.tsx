@@ -10,7 +10,7 @@ export default function Sidebar({ jobItems }) {
         <ResultsCount />
         <SortingControls />
       </div>
-      <JobList />
+      <JobList jobItems={jobItems} />
       <Pagination />
     </div>
   );
